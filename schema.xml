@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="<%= project.name %>" defaultIdMethod="native">
+	
+	<table name="table" phpName="Table">
+		<column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+	    <column name="column" type="varchar" size="255" required="true" />
+		<behavior name="timestampable" />
+	</table>
+
+</database>
